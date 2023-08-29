@@ -10,11 +10,13 @@ body {
 }
 
 /* Header formatting to make it condensed, but still readable */
-.header {
+header {
     padding: 20px;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
 }
 
 .header h1 {
@@ -27,18 +29,19 @@ body {
 }
 
 .header ul {
-    padding-top: 15px;
+    /* padding-top: 15px; */
+    padding: 15px;
     margin-right: 20px;
-    float: right;
+    text-align-last: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
-
-.header ul li {
+.header ul li {  
     display: inline-block;
     margin-left: 25px;
+   
 }
 
 a {
@@ -180,7 +183,7 @@ p {
     max-width: 150px;
 }
 /* Footer of the page */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
